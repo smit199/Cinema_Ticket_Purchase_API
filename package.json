@@ -1,0 +1,33 @@
+{
+  "name": "cinema_ticket_purchase_api",
+  "version": "1.0.0",
+  "description": "Web API to create cinema and purchase seats in different cinemas",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smit199/Cinema_Ticket_Purchase_API.git"
+  },
+  "author": "Smit Sheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smit199/Cinema_Ticket_Purchase_API/issues"
+  },
+  "homepage": "https://github.com/smit199/Cinema_Ticket_Purchase_API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.1",
+    "morgan": "^1.10.0",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
+  }
+}
