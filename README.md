@@ -6,6 +6,8 @@ This is a RESTful web API for cinema ticket purchase platform to manage booking 
 
 - View details of cinema and available seats in cinema.
 
+- Registration and login of user with jwt token to purchase ticket.
+
 - Purchase a specific seat number in cinema C. If the seat is already purchased, return an error, otherwise return the seat and booking details.
 
 - Purchase the first two free consecutive seats in cinema C. If there are no two consecutive seats available, return an error, otherwise return the list of seats and booking details.
@@ -55,4 +57,4 @@ Follow these steps to set up and run the API on your local machine:
 
 6. **API Documentation & Testing**
 
-    Open postman in your machine and import 'Cinema_Ticket_Booking_API.postman_collection.json' file. Change the port in environment varaibles url according to your configuration.
+    Open postman in your machine and import 'Cinema_Ticket_Booking_API.postman_collection.json' file. Change the port in environment varaibles url according to your configuration. Register demo user and login directly through signup and login endpoints to book tickets in cinema.
